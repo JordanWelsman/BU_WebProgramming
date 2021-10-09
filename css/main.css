@@ -1,0 +1,45 @@
+/* Elements */
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-family: system-ui;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.background--light {
+    background: #D5D5D5;
+}
+
+.background--dark {
+    background: #404045;
+}
+
+/* Classes */
+.card {
+    margin: 2em;
+    max-width: 400px;
+    max-height: 100px;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+}
+
+.card h1, p {
+    text-align: center;
+}
+
+.card--light {
+    background: #EEE;
+    color: #000;
+}
+
+.card--dark {
+    background: #333;
+    color: #EEE;
+}
+
+/* IDs */
