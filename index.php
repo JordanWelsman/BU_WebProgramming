@@ -11,6 +11,10 @@
     <div class="card card--dark">
         <h1>Welcome to <strong>POSTS</strong></h1>
         <p>Properly Organised Shipment Tracking System</p>
-    </div>   
+        <div class="card__container">
+            <button class="button--primary">Sign Up</button>
+            <button class="button--secondary">Log In</button>
+        </div>
+    </div>
 </body>
 </html>
