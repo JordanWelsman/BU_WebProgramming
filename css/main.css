@@ -68,7 +68,7 @@ button {
 .button--primary {
     background-color: var(--accent--red);
     border: 0;
-    color: black;
+    color: white;
 }
 
 .button--secondary {
