@@ -1,0 +1,32 @@
+/* Elements */
+nav {
+    display: flex;
+    background-color: var(--light--back);
+}
+
+div {
+    display: flex;
+    width: 70vw;
+    height: 100wh;
+}
+
+nav a {
+    justify-self: start;
+}
+
+nav ul {
+    justify-self: end;
+}
+
+ul li {
+    display: inline-block;
+}
+
+a {
+    font-size: 1.5em;
+    color: var(--accent--red);
+}
+
+/* Classes */
+
+/* IDs */

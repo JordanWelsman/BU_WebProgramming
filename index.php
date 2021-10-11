@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" type="image/x-icon" href="ico/favicon.ico"/>
-    <title>Welcome to POSTS!</title>
+    <title>POSTS | Welcome</title>
 </head>
 <body class="background--light" id="pageBody">
     <div class="card card--light" id="card">

@@ -1,7 +1,11 @@
 /* Site Colours */
 :root {
-    --dark--background: #404045;
     --light--background: #D5D5D5;
+    --dark--background: #404045;
+    --light--back: #EEE;
+    --light--col: #000;
+    --dark--back: #333;
+    --dark--col: #EEE;
     --accent--red: #FF0035;
     --transparent: rgba(0, 0, 0, 0)
 }
@@ -11,6 +15,7 @@ body {
     width: 100vw;
     height: 100vh;
     display: flex;
+    margin: 0;
     font-family: system-ui;
     justify-content: center;
     align-items: center;
@@ -25,7 +30,6 @@ button {
     padding: 10px 25px;
     margin: 10px;
     cursor: pointer;
-
     /* animation */
     position: relative;
     top: 0;
@@ -58,16 +62,18 @@ button:hover {
 
 .card h1, p {
     text-align: center;
+    cursor: default;
+    user-select: none;
 }
 
 .card--light {
-    background: #EEE;
-    color: #000;
+    background: var(--light--back);
+    color: var(--light--col);
 }
 
 .card--dark {
-    background: #333;
-    color: #EEE;
+    background: var(--dark--back);
+    color: var(--dark--col);
 }
 
 .card__container {
@@ -88,7 +94,7 @@ button:hover {
 }
 
 .button--small {
-    min-width: 20px;
+    min-width: 0px;
 }
 
 /* IDs */
