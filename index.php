@@ -15,7 +15,7 @@
         <div class="card__container">
             <button class="button--primary" id="primaryButton">Register</button>
             <button class="button--secondary">Log In</button>
-            <!--<button class="button--secondary" id="themeToggle">Toggle Theme</button>-->
+            <button class="button--secondary button--small" id="themeToggle">🕶️</button>
         </div>
     </div>
 </body>

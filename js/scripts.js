@@ -7,7 +7,7 @@ const pageBody = document.getElementById("pageBody");
 toggleButton.addEventListener('click', toggleTheme); // toggle theme on click
 
 function toggleTheme() { // Toggles the site theme between Light & Dark modes.
-    console.log("Function toggleButtonColours() is working.")
+    /*console.log("Function toggleButtonColours() is working.")*/
     console.log(pageBody.classList);
     if (card.classList.contains("card--dark")) { // if already in 'Dark mode', remove dark classes
         console.log("Changed theme to light mode.");
@@ -17,6 +17,7 @@ function toggleTheme() { // Toggles the site theme between Light & Dark modes.
         pageBody.classList.add("background--light"); // add light classes
         card.classList.add("card--light");
         primaryButton.style.color = "white";
+        toggleButton.innerHTML = "🕶️";
     }
     else { // if already in 'Light mode', remove light classes
         console.log("Changed theme to dark mode.");
@@ -26,5 +27,6 @@ function toggleTheme() { // Toggles the site theme between Light & Dark modes.
         pageBody.classList.add("background--dark"); // add dark classes
         card.classList.add("card--dark");
         primaryButton.style.color = "black";
+        toggleButton.innerHTML = "🌞";
     }
 };
