@@ -20,5 +20,14 @@
             </ul>
         </div>
     </nav>
+
+    <div class="wrapper">
+        <div class="pageContent">
+            <div class="topLeft"></div>
+            <div class="topRight"></div>
+            <div class="bottomLeft"></div>
+            <div class="bottomRight"></div>
+        </div>
+    </div>
 </body>
 </html>
