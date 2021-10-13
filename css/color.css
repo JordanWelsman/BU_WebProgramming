@@ -1,0 +1,16 @@
+/* Site Colours */
+:root {
+    --light--background: #D5D5D5;
+    --dark--background: #404045;
+    --light--back: #EEE;
+    --light--col: #000;
+    --dark--back: #333;
+    --dark--col: #EEE;
+    --accent--red: #FF0035;
+    --transparent: rgba(0, 0, 0, 0);
+}
+
+/* Site Values */
+:root {
+    --wrapper_value: 10%;
+}
