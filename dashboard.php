@@ -13,15 +13,15 @@
 <body class="background--light" id="pageBody">
     <header>
         <a class="logo" href="index.php"><img src="https://picsum.photos/200/50" alt="Site Logo"></a>
-        <a class="cta" href="#"><button class="button button--primary">Contact</button></a>
+        <a class="cta" href="#"><button class="button--primary button--small" id="new">➕</button></a>
         <nav>
             <ul class="nav__links">
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Projects</a></li>
                 <li><a href="#">About</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">FAQs</a></li>
             </ul>
         </nav>
-        <a class="thc" href="#"><button class="button--secondary button--small" id="themeToggle">🕶️</button></a>
+        <!--<a class="thc" href="#"><button class="button--secondary button--small" id="themeToggle">🕶️</button></a>-->
     </header>
     <div class="page__content">
         <h1>Hello</h1>
