@@ -24,8 +24,22 @@
         <!--<a class="thc" href="#"><button class="button--secondary button--small" id="themeToggle">🕶️</button></a>-->
     </header>
     <div class="page__content">
-        <h1>Hello</h1>
-        <p>My name is Jordan Welsman and I'm a Data Science & Analytics student.</p>
+        <div class="banner">
+            <h1>Hello</h1>
+            <p>My name is Jordan Welsman and I'm a Data Science & Analytics student.</p>
+        </div>
+        <div class="row__1">
+            <div class="box">
+                <p class="box__title"></p>
+            </div>
+            <div class="box">
+                <p class="box__title"></p>
+            </div>
+            <div class="box">
+                <p class="box__title"></p>
+            </div>
+            <div class="box"></div>
+        </div>
     </div>
 </body>
 <footer>

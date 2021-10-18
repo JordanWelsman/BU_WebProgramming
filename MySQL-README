@@ -1,0 +1,16 @@
+Here are the mysql details and credentials.
+
+username: s5117801
+password: iFnLYzRcWFTn9ghpkRWt4YdxnvUujjeo
+hostname: db.bucomputing.uk
+database: s5117801
+port    : 6612
+ca-cert : ~/mysql-ca.crt
+
+# E.g. to connect using mysql client v5.1
+mysql -u s5117801 -piFnLYzRcWFTn9ghpkRWt4YdxnvUujjeo -h db.bucomputing.uk -P 6612 --ssl-ca=/home/s5117801/mysql-ca.crt --ssl s5117801
+
+# E.g. to connect using mysql client v5.7
+mysql -u s5117801 -piFnLYzRcWFTn9ghpkRWt4YdxnvUujjeo -h db.bucomputing.uk -P 6612 --ssl=TRUE s5117801
+
+
