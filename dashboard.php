@@ -30,15 +30,22 @@
         </div>
         <div class="row__1">
             <div class="box">
-                <p class="box__title"></p>
+                <h2 class="box__title">Box 1</p>
             </div>
             <div class="box">
-                <p class="box__title"></p>
+                <h2 class="box__title">Box 2</p>
             </div>
             <div class="box">
-                <p class="box__title"></p>
+                <h2 class="box__title">Box 3</p>
             </div>
-            <div class="box"></div>
+            <div class="box">
+                <h2 class="box__title">Box 4</p>
+            </div>
+        </div>
+        <div class="status">
+            <div class=status__row>
+                <h3></h3>
+            </div>
         </div>
     </div>
 </body>
